@@ -3,56 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/header.css">
     <title>Green Garden</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <img src="assets/logo.svg/logoipsum-225.svg" alt="logoipsum-225">
-                <h3></h3>
+    <header class="header">
+        <nav class="header_nav">
+            <div class="nav_logo">
+                <img src="Assets/imgs/logo/logoipsum-225.svg" alt="logoipsum-225" class="nav_logo-img">
+                <h3 class="nav_logo-title"> Green Garden</h3>
             </div>
-            <div>
-                <button>connexion</button>
-                <button>Essayer Green Garden</button>
+            <div class="nav_auth">
+                <button class="nav_auth-connexion nav_auth-signin">connexion</button>
+                <button class="nav_auth-connexion nav_auth-signup">Essayer Green Garden</button>
+            </div>
+            <div class="nav-moble-menu">
+            <img src="Assets/imgs/logo/menu-line.svg" alt="logo">
             </div>
         </nav>
     </header>
-    <main>
-        <div>
-            <div>
-                <h1></h1>
-                          <p></p>
-                           <button></button>
+    <main class="main">
+        <div class="main_container">
+            <div class="main_hero">
+                <h1 class="main_hero-title">  Entretenez Rapidement et 
+                   <br> Efficament vos Espaces verts
+                         <br> avec GREEN GARDEN</h1>
+                          <p class="main_hero-description">Une equipe dynamique et robuste
+                           <br> pour vos espaces verts</p>
+                           <button class="main_hero-button">Essayer Green Garden</button>
             </div>
-            <div>
-                <div>
-                    <img src="assets/logo.svg/function-add-fill.svg" alt="function-add-fill" width="63" height="55">
-                    <h3></h3>
-                    <p></p>
+            <div class="main_features">
+                <!--debuts des features-->
+                <div class="main_feature main_feature-add">
+                    <img src="Assets/imgs/logo/function-add-fill.svg" alt="function-add-fill" width="63" height="55" class="main_feature-icon">
+                    <h3 class="main_feature-title">Notre Equipe</h3>
+                    <p class="main_feature-description">Elle est composée
+                        <br>des hommes et <br> femmes
+                        de valeurs</p>
                 </div>
-                <div>
-                    <img src="assets/logo.svg/sort-asc.svg" alt="sort-asc" width="63" height="55">
-                    <h3></h3>
-                    <p></p>
+                <div class="main_feature main_feature-sort">
+                    <img src="Assets/imgs/logo/sort-asc.svg" alt="sort-asc" width="63" height="55" class="main_feature-icon">
+                    <h3 class="main_feature-title">Nos Services</h3>
+                    <p class="main_feature-description">Entretien de vos jardin <br> nettoyage de <br>votre environnement
+                        Entretien <br> de maisons
+                        et bureau</p>
                 </div>
-                <div>
-                    <img src="assets/logo.svg/command-line.svg" alt="command-line" width="63" height="55">
-                    <h3></h3>
-                    <p></p>
+                <div class="main_feature main_feature-command-line">
+                    <img src="Assets/imgs/logo/command-line.svg" alt="command-line" width="63" height="55" class="main_feature-icon">
+                    <h3 class="main_feature-title">Notre couverture</h3>
+                    <p class="main_feature-description">Nous operons specialement <br>dans Libreville
+                        et Owendo</p>
                 </div>
             </div>
         </div>
     </main>  
-    <footer>
-        <div>
-           <div>
-            <p></p>
-            <p></p>
-            <p></p>
+    <!--ceci est la fin du main-->
+    <footer class="footer">
+        <div class="footer_container">
+           <div class="footer_legal">
+            <p class="footer_legal-item">&copy;2024 Green Garden NBA</p>
+            <p class="footer_legal-item" >Mentions Légales</p>
+            <p class="footer_legal-item">Politique de confidentialité</p>
            </div>
-           <div></div>
+           <div class="footer_info">
+           <!--Reseaux sociaux-->
+           <div class="footer_logo">
+            <img src="Assets/imgs/logo/logoipsum-225.svg" alt="logoipsum-225" class="footer_logo-img">
+                <h3 class="footer_logo-title">Green Garden</h3>
+           </div>
+           <!--les icones-->
+           <div class="footer_social">
+            <a href="http://twitter.com" class="footer_social-link"><img src="Assets/imgs/social/twitter-fill.svg" alt="logo" width="54" height="54" class="footer_social-icon"></a>
+            <a href="http://Instagram.com"  class="footer_social-link"><img src="Assets/imgs/social/instagram-fill.svg" alt="logo" width="54" height="54" class="footer_social-icon"></a>
+            <a href="http://Facebook.com"  class="footer_social-link"><img src="Assets/imgs/social/facebook-circle-fill.svg" alt="logo" width="54" height="54" class="footer_social-icon"></a>
+            <a href="http://Youtube.com"  class="footer_social-link"><img src="Assets/imgs/social/youtube-fill (1).svg" alt="logo" width="54" height="54" class="footer_social-icon"></a>
+           </div>
+        </div>
         </div>
        </footer>
+       <!--La fin du footer-->
 </body>
 </html>
